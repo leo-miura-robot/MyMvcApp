@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム</title>
+</head>
+<body>
+    <h2>POSTメソッドで送信</h2>
+    <form action="greet" method="post">
+        名前: <input type="text" name="username"><br>
+        メッセージ: <input type="text" name="message"><br>
+        <input type="submit" value="POSTで送信">
+    </form>
+
+    <hr>
+
+    <h2>GETメソッドで送信</h2>
+    <form action="greet" method="get">
+        名前: <input type="text" name="username"><br>
+        メッセージ: <input type="text" name="message"><br>
+        <input type="submit" value="GETで送信">
+    </form>
+</body>
+</html>
